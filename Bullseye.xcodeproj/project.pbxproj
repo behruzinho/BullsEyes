@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA088B682A45B778009C648D /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088B672A45B778009C648D /* GameManager.swift */; };
 		CAAC2ED22A4319C700222B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAC2ED12A4319C700222B5E /* AppDelegate.swift */; };
 		CAAC2ED42A4319C700222B5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAC2ED32A4319C700222B5E /* SceneDelegate.swift */; };
 		CAAC2ED62A4319C700222B5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAC2ED52A4319C700222B5E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA088B672A45B778009C648D /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		CAAC2ECE2A4319C700222B5E /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAC2ED12A4319C700222B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAAC2ED32A4319C700222B5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CAAC2EDA2A4319C800222B5E /* Assets.xcassets */,
 				CAAC2EDC2A4319C800222B5E /* LaunchScreen.storyboard */,
 				CAAC2EDF2A4319C800222B5E /* Info.plist */,
+				CA088B672A45B778009C648D /* GameManager.swift */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAAC2ED62A4319C700222B5E /* ViewController.swift in Sources */,
+				CA088B682A45B778009C648D /* GameManager.swift in Sources */,
 				CAAC2ED22A4319C700222B5E /* AppDelegate.swift in Sources */,
 				CAAC2ED42A4319C700222B5E /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
