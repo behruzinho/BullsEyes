@@ -11,6 +11,7 @@ class GameManager {
 
     // Удайте число
     var guessingNumber: Int
+    // test
     
     // Текущее очко
     var score: Int
