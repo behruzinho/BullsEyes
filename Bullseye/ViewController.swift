@@ -26,7 +26,8 @@ class ViewController: UIViewController {
         hitButton.layer.borderWidth = 3
         hitButton.layer.borderColor = UIColor.white.cgColor
         hitButton.layer.cornerRadius = 16
-        
+        //
+        // 
         // CALayer отвечает за отображение
 //        pinkView.layer.cornerRadius = 60 // отвечает за закругления
 //        pinkView.layer.borderWidth = 2 // за ширину бордера
